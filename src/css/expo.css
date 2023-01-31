@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 ;
+    overflow-y: hidden;
+}
+.mainDiv {
+    background-image: url("../images/fondogomaweb.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: scroll;
+    height: 667px;
+    width: 1550%;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+
+}
+.firstImg {
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 1%
+}
+.secondImg {
+    width: 200px;
+    position: absolute;
+    top: 55%;
+    left: 2%
+}
+.thirdImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
