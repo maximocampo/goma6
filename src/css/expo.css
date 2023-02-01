@@ -5,9 +5,8 @@ body {
     overflow-y: hidden;
 }
 .mainDiv {
-    background-image: url("../images/fondogomaweb.png");
-    background-size: contain;
-    background-repeat: repeat-x;
+    background-image: url("../IMG_4389.png");
+    background-size: cover;
     overflow-x: scroll;
     height: 667px;
     width: 1550%;

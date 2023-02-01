@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import "../css/expo.css"
-import Modal from "../components/modal"
+import {Modal} from "react-bootstrap"
 import Imagen from "../images/obras/test.png"
 
 const Expo = () => {
@@ -11,9 +11,11 @@ const Expo = () => {
         <img src={Imagen} alt="" onClick={() => setShow(true)} className="firstImg"/>
         <img src={Imagen} alt="" onClick={() => setShow(true)} className="secondImg"/>
         <img src={Imagen} alt="" onClick={() => setShow(true)} className="thirdImg"/>
-        <div className="modalDiv">
-            <Modal/>
-        </div>
+        <Modal show={show} onHide={() => setShow(!show)} backdrop>
+            <Modal.Body size="sm">
+                holaaaaa
+            </Modal.Body>
+        </Modal>
     </div>
   )
 }
