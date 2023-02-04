@@ -10,11 +10,27 @@ body {
     background-repeat: repeat-x;
     overflow-x: scroll;
     overflow-y: hidden !important;
-    height: 667px;
+    height:  calc(100% - 0px);
     width: 1550%;
     display:flex;
     flex-direction: row;
     position: absolute;
+}
+.modal.show .modal-dialog {
+    transform: none;
+    width: 300px;
+    overflow-y: hidden;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+}
+.modal-content img {
+    width: 100%;
+}
+.marqueeP {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
 }
 .firstImg {
     width: 200px;
@@ -35,19 +51,177 @@ body {
     top: 25%;
     left: 6%
 }
-.modal.show .modal-dialog {
-    transform: none;
-    width: 300px;
-    overflow-y: hidden;
+.fourthImg {
+    width: 200px;
+    position: absolute;
     top: 5%;
-    left: 2%;
-    right: 2%;
+    left: 11%
 }
-.modal-content img {
-    width: 100%;
+.fifthImg {
+    width: 200px;
+    position: absolute;
+    top: 55%;
+    left: 10%
 }
-.marqueeP {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
+.sixthImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.seventhImg {
+    width: 200px;
+    position: absolute;
+    top: 49%;
+    left: 14.5%
+}
+.eightImg {
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    left: 16%
+}
+.nineImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.tenImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.elevenImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.doceImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.treceImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.catorceImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.quinceImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.dieciseisImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.diesisieteImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.diesiochoImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.diesinueveImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veinteImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.vientiunoImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veintidosImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veintitres {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veinticuatro {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veinticinco {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veintiseis {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veintisiente {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.ventiocho {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.veintinueve {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.treinta {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.thirdImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
+}
+.thirdImg {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 6%
 }
